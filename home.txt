@@ -1,0 +1,307 @@
+
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv7.stream"
+        },{ 
+            file: "http://tv.multilive.net/m3u8/tv17.stream.m3u8"
+        }],
+     image: 'images/ARY_Digital.jpg',
+     description: 'Entertainment Channel',
+     title: 'ARY Digital'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv8.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:humtv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Hum_TV.jpg',
+     description: 'Entertainment Channel',
+     title: 'Hum TV'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv28.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:sonytv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Sony_TV.jpg',
+     description: 'Entertainment Channel',
+     title: 'Sony TV'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv27.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:colors/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Colors.jpg',
+     description: 'Entertainment Channel',
+     title: 'Colors'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv9.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:geoentertainment/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Geo_TV.jpg',
+     description: 'Entertainment Channel',
+     title: 'Geo TV'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv6.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:expressentertainment/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Express_Entertainment.jpg',
+     description: 'Entertainment Channel',
+     title: 'Express Entertainment'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv30.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:playtv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Punjab_TV.jpg',
+     description: 'Entertainment Channel',
+     title: 'Punjab TV'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv29.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:ktn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Kawish_(KTN).jpg',
+     description: 'Entertainment Channel',
+     title: 'Kawish (KTN)'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv33.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:masalatv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Masala_Tv.jpg',
+     description: 'Food Channel',
+     title: 'Masala Tv'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv14.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:cartoonnetwork/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Cartoon_Network.jpg',
+     description: 'Kids Channel',
+     title: 'Cartoon Network'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv34.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:nick/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Nick.jpg',
+     description: 'Kids Channel',
+     title: 'Nick'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv15.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:babytv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Baby_TV.jpg',
+     description: 'Kids Channel',
+     title: 'Baby TV'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv32.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:pogo/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/AXN.jpg',
+     description: 'Movies Channel',
+     title: 'AXN'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv35.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:satmax/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Film_World.jpg',
+     description: 'Movies Channel',
+     title: 'Film World'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv18.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:zeecinema/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Star World.jpg',
+     description: 'Movies Channel',
+     title: 'Star World'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv17.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:starmovies/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Star_Movies.jpg',
+     description: 'Movies Channel',
+     title: 'Star Movies'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv16.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:hbo/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/HBO.jpg',
+     description: 'Movies Channel',
+     title: 'HBO'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv26.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:jalwa/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/ARY_Musik.jpg',
+     description: 'Music Channel',
+     title: 'ARY Musik'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv21.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:8xm/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/MTV India.jpg',
+     description: 'Music Channel',
+     title: 'MTV India'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv25.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:8xm/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/8XM.jpg',
+     description: 'Music Channel',
+     title: '8XM'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv1.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:express/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Express_News.jpg',
+     description: 'News Channel',
+     title: 'Express News'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv19.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:channel92/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/CNN.jpg',
+     description: 'News Channel',
+     title: 'CNN'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv5.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:samaatv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Samaa_TV.jpg',
+     description: 'News Channel',
+     title: 'Samaa TV'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv3.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:dawn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Dawn_News.jpg',
+     description: 'News Channel',
+     title: 'Dawn News'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv4.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:arynews/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/ARY_News.jpg',
+     description: 'News Channel',
+     title: 'ARY News'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv2.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:geonews/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Geo_News.jpg',
+     description: 'News Channel',
+     title: 'Geo News'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv23.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:madina/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Al_Sunnah.jpg',
+     description: 'Religous Channel',
+     title: 'Al Sunnah'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv22.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:mecca/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Al_Quran.jpg',
+     description: 'Religous Channel',
+     title: 'Al Quran'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv24.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:qtv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Arrahman_Arraheem.jpg',
+     description: 'Religous Channel',
+     title: 'Arrahman Arraheem'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv11.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:sports/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Star_Sports_4.jpg',
+     description: 'Sports Channel',
+     title: 'Star Sports 4'
+},{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv13.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:ptvsports/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/PTV_Sports.jpg',
+     description: 'Sports Channel',
+     title: 'PTV Sports'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv10.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:tensportsofficial/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Ten_Sports.jpg',
+     description: 'Sports Channel',
+     title: 'Ten Sports'
+  },{
+     sources: [{ 
+            file: "rtmp://hd-tv.multilive.net:554/live/tv12.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:geosuper/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/Geo_Super.jpg',
+     description: 'Sports Channel',
+     title: 'Geo Super'
+  },{
+     sources: [{
+            file: "rtmp://hd-tv.multilive.net:554/live/tv20.stream"
+        },{ 
+            file: "http://web.multilive.net/tv/mp4:discovery/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS83LzIwMTUgOTo1Nzo0MSBBTSZoYXNoX3ZhbHVlPU93SFZ0Z0w2ODl4dUFuQnc0SjR2SVE9PSZ2YWxpZG1pbnV0ZXM9MQ=="
+        }],
+     image: 'images/National_Geographic.jpg',
+     description: 'Documentary Channel',
+     title: 'National Geographic'
+

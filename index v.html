@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/coustom.css" />
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css" type="text/css" media="all" />
+      	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+      	<!------- Cordova js----------->
+        <script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>
+       <!----------------------------------->
+		<script src="js/jquery-1.8.3.min.js"></script>
+      	<script src="js/jquery.mobile.config.js"></script>
+      	<script src="js/jquery.mobile-1.3.0.min.js"></script>
+        <!--- Media js ---->
+        <script type="text/javascript" charset="utf-8" src="video.js"></script>
+        <script src="js/audio.js"></script>
+        <!------------------>
+   <title>Multi Live Tv</title>
+    </head>
+    <body>
+        <div id="home-page" data-role="page">
+         <header data-role="header" data-position="fixed">
+            <h1>Multi Live Tv</h1>
+            <a href="#about"  data-role="button" class="ui-btn-right" data-icon="info" data-iconpos="notext">Home</a>
+         </header>
+         	<div class="home-content">
+            	<div class="ui-grid-b ui-responsive">
+                	
+                        <div class="ui-block-a">
+                    	<br><br><br><a href="#tv-page" data-role="button"><img src="img/btn/tv.png" width="56" height="56" alt="TV"> <br>TV Channel</a>
+                    </div>
+                    
+                </div>
+            </div>
+           
+           <div class="social-icon">
+                 <div class="ui-grid-b">
+                 
+                    <div class="ui-block-a">
+                        <a href="https://www.facebook.com/skyinside" data-role="buttonx"><img src="img/btn/facebook.png" width="34" height="34" alt="Pause"></a>
+                    </div>
+                    
+                    <div class="ui-block-b">
+                       <a href="http://twitter.com/" data-role="buttonx"><img src="img/btn/twitter.png" width="34" height="34" alt="Pause"></a>
+                    </div>
+                    
+                    <div class="ui-block-c">
+                        <a href="http://plus.google.com/" data-role="buttonx"><img src="img/btn/google.png" width="34" height="34" alt="Pause"></a>
+                     </div>
+                 </div>
+           </div>
+           
+         <footer data-role="footer" data-position="fixed">
+            <h3>Developed by <a href="http://www.multilive.net/" target="new">www.multilive.net</a> <br></h3>
+         </footer>
+      </div>
+      
+      
+<!---------------- TV ----------->
+<div id="tv-page" data-role="page">
+	<header data-role="header" data-position="fixed">
+    	<a href="#" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back">Back</a>
+        <a href="#about"  data-role="button" class="ui-btn-right" data-icon="info" data-iconpos="notext">Home</a>
+     	<h1>Multi Live Tv</h1>
+    </header>
+    	<div class="channel-container">
+         <article>
+                  <h2>TV Channel</h2>
+                  <ul data-role="listview" data-inset="true">
+                   <!---- Channel 1 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://stream01.m4u.com.pk:8081/tv/geonews/playlist.m3u8');">
+                           <img src="img/tvlogo/fyrtv.png" alt="Geo News" />
+                           <div class="channel-info">
+                           		<h1>Geo News</h1>
+                           		<h2>Live Streaming</h2>
+                                </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 1------->  
+                     <!---- Channel 2 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://46.249.213.87/iPhone/broadcast/tracetvurban-tablet.3gp.m3u8');">
+                           <img src="img/tvlogo/Trance_Urban.png" alt="Geo News" />
+                          <div class="channel-info">
+                              <h1>Geo News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 2------->  
+                   <!---- Channel 3 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://bglive-a.bitgravity.com/ndtv/247hi/live/native');">
+                           <img src="img/tvlogo/ndtv.png" alt="Ptv News" />
+                          <div class="channel-info">
+                              <h1>Ptv News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 3-------> 
+				         <!---- Channel 4 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://cdn.stream.soundfyr.com/hls-live/livepkgr/_definst_/liveevent/fyrtv.m3u8');">
+                           <img src="img/tvlogo/fyrtv.png" alt="Ary Digital" />
+                           <div class="channel-info">
+                           		<h1>Ary Digital</h1>
+                           		<h2>Live Streaming</h2>
+                                </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 4------->  
+                     <!---- Channel 5 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://46.249.213.87/iPhone/broadcast/tracetvurban-tablet.3gp.m3u8');">
+                           <img src="img/tvlogo/Trance_Urban.png" alt="Geo News" />
+                          <div class="channel-info">
+                              <h1>Geo News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 5------->  
+                   <!---- Channel 6 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://bglive-a.bitgravity.com/ndtv/247hi/live/native');">
+                           <img src="img/tvlogo/ndtv.png" alt="Ptv News" />
+                          <div class="channel-info">
+                              <h1>Ptv News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 6-------> 
+				         <!---- Channel 7 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://cdn.stream.soundfyr.com/hls-live/livepkgr/_definst_/liveevent/fyrtv.m3u8');">
+                           <img src="img/tvlogo/fyrtv.png" alt="Ary Digital" />
+                           <div class="channel-info">
+                           		<h1>Ary Digital</h1>
+                           		<h2>Live Streaming</h2>
+                                </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 7------->  
+                     <!---- Channel 8 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://46.249.213.87/iPhone/broadcast/tracetvurban-tablet.3gp.m3u8');">
+                           <img src="img/tvlogo/Trance_Urban.png" alt="Geo News" />
+                          <div class="channel-info">
+                              <h1>Geo News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 8------->  
+                   <!---- Channel 9 ------->
+                     <li>
+                        <a href="#" onclick="window.plugins.videoPlayer.play('http://bglive-a.bitgravity.com/ndtv/247hi/live/native');">
+                           <img src="img/tvlogo/ndtv.png" alt="Ptv News" />
+                          <div class="channel-info">
+                              <h1>Ptv News</h1>
+                              <h2>Live Streaming</h2>
+                          </div>
+                        </a>
+                     </li>
+                   <!------- End of channel 9-------> 
+                    
+                  </ul>
+               </article>
+         </div>
+   <footer data-role="footer" data-position="fixed">
+   		<h3>Developed by <a href="http://www.multilive.net/" target="new">www.multilive.net</a> <br></h3>
+  </footer> 
+  </div>
+<!------- End of TV page ------->
+
+<!---------------- About----------->
+
+<div data-role="page" data-dialog="true" id="about">
+  <div data-role="header">
+  	<a href="#" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back">Back</a>
+    <h1>About</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+	<div class="about-text">
+    <h1>Multi Live Tv</h1>
+    <p>	Developed by <a href="http://www.multilive.net/" target="new">www.multilive.net</a> <br>
+    	Email: supportmultilive.net <br>
+    	Call: +92 3003452006 </p>
+    </div>
+  </div>
+</div>         
+     
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
