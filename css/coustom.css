@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home-content{
+	margin:10px;
+	text-align:center;
+}
+
+.channel-container{
+	margin:10px;
+}
+
+.channel-container h2{
+	text-align:center;
+	font-size:16px;
+}
+.channel-container li img{
+	width:56px;
+	height:56px;
+	margin:5px;
+	
+}
+.channel-info{
+	margin-top:-15px;
+	margin-left:-30px;
+	text-align:left;
+
+}
+.channel-info h1{
+	color: #FFC;
+	text-align:left;
+}
+.channel-info h2{
+	margin-top:-1px;
+	font-size:10px;
+	text-align:left;
+}
+
+.social-icon{
+	text-align:center;
+}
